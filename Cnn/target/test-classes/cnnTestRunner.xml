@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Cnn news media" parallel="tests">
+
+
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="userName" value="PratikRay"/>
+    <parameter name="key" value="392cb1fd-e82d-4eb7-a667-4fc00fa5d7b2"/>
+    <parameter name="OS" value="Windows 10"/>
+    <parameter name="url" value="http://www.cnn.com"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="browserVersion" value="43.0"/>
+
+
+
+    <test name = "Cnn Search">
+        <classes>
+            <class name="home.Search"/>
+        </classes>
+    </test>
+
+
+</suite>

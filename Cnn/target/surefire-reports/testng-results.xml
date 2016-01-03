@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Cnn news media" duration-ms="20364" started-at="2016-01-03T07:55:31Z" finished-at="2016-01-03T07:55:52Z">
+    <groups>
+    </groups>
+    <test name="Cnn Search" duration-ms="20364" started-at="2016-01-03T07:55:31Z" finished-at="2016-01-03T07:55:52Z">
+      <class name="home.Search">
+        <test-method status="PASS" signature="setUp(java.lang.Boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.Search@6537cf78]" name="setUp" is-config="true" duration-ms="7788" started-at="2016-01-03T02:55:31Z" finished-at="2016-01-03T02:55:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PratikRay]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[392cb1fd-e82d-4eb7-a667-4fc00fa5d7b2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[43.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://www.cnn.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:home.Search@6537cf78]" name="test1" duration-ms="11455" started-at="2016-01-03T02:55:39Z" finished-at="2016-01-03T02:55:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.Search@6537cf78]" name="cleanUp" is-config="true" duration-ms="1107" started-at="2016-01-03T02:55:51Z" finished-at="2016-01-03T02:55:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- home.Search -->
+    </test> <!-- Cnn Search -->
+  </suite> <!-- Cnn news media -->
+</testng-results>
