@@ -58,6 +58,19 @@
         </profile>
 
         <profile>
+            <id>default</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <modules>
+                <module>Generic</module>
+                <module>Cnn</module>
+                <module>Amazon</module>
+                <module>RandomApp</module>
+            </modules>
+        </profile>
+
+        <profile>
             <id>cnn-app</id>
             <modules>
             <module>Generic</module>
